@@ -13,4 +13,4 @@ var routes = require('./routes/routes');
 routes(app);
 
 
-app.listen(80, () => console.log('servidor rodando em localhost'));
+app.listen(8080, () => console.log('servidor rodando em localhost'));
