@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Site</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; }
+    </style>
+</head>
+<body>
+
+    <form ref='uploadForm'
+      id='uploadForm'
+      action='/bitTuneApi/upload'
+      method='post'
+      encType="multipart/form-data">
+        <input type="file" name="tune" />
+        <input type='submit' value='Upload!' />
+    </form>
+
+    <audio controls autoplay>
+      <source src="http://localhost:80/musica/ShawnMendes.mp3">
+    </audio>
+
+
+
+</body>
